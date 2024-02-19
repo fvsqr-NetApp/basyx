@@ -1,0 +1,1091 @@
+{
+  "assetAdministrationShells": [
+    {
+      "asset": {
+        "keys": [
+          {
+            "type": "Asset",
+            "local": true,
+            "value": "https://aiq.netapp.com/custom-dashboard/cluster/9bc05b3a-5bfd-11e7-b415-00a098b3eb4f/dashboard",
+            "idType": "Custom"
+          }
+        ],
+        "kind": "Type",
+        "idShort": "dewemnas01",
+        "identification": {
+        	"idType": "Custom",
+        	"id": "Cluster dewemnas01"
+        }
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://aiq.netapp.com/custom-dashboard/cluster/9bc05b3a-5bfd-11e7-b415-00a098b3eb4f/capacity-and-efficiency/capacity/node?snos=952019000082",
+              "idType": "IRI"
+            }
+          ],
+          "idShort": "OverviewCapacityEfficiency",
+          "identification": {
+              "idType": "IRI",
+              "id": "OverviewCapacityEfficiency"
+          }
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://aiq.netapp.com/custom-dashboard/serial_numbers/212028000092/system_id/0538129918/clusterview/cluster/summary?snos=952019000082",
+              "idType": "IRI"
+            }
+          ],
+          "idShort": "Shelves",
+          "identification": {
+              "idType": "IRI",
+              "id": "Shelves"
+          }
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://aiq.netapp.com/custom-dashboard/serial_numbers/212028000092/system_id/0538129918/dashboard",
+              "idType": "IRI"
+            }
+          ],
+          "idShort": "Wellness",
+          "identification": {
+              "idType": "IRI",
+              "id": "Wellness"
+          }
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://aiq.netapp.com/custom-dashboard/serial_numbers/952019000082/system_id/0538151109/clusterview/cluster/summary",
+              "idType": "IRI"
+            }
+          ],
+          "idShort": "OverviewConfiguration",
+          "identification": {
+              "idType": "Custom",
+              "id": "OverviewConfiguration"
+          }
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "952019000082-212028000092"
+      },
+      "idShort": "dewscnas01n9-dewscnas01n10",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "assetIdentificationModelRef": {
+        "keys": [
+          {
+            "type": "Submodel",
+            "local": true,
+            "value": "i40.customer.com/type/1/1/F13E8576F6488342",
+            "idType": "IRI"
+          }
+        ]
+      },
+      "identification": {
+        "idType": "Customer",
+        "id": "https://aiq.netapp.com/custom-dashboard/cluster/9bc05b3a-5bfd-11e7-b415-00a098b3eb4f/dashboard"
+      },
+      "idShort": "cluster-dewemnas01",
+      "category": "",
+      "modelType": {
+        "name": "Asset"
+      },
+      "kind": "Instance"
+    }
+  ],
+  "submodels": [
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://aiq.netapp.com/custom-dashboard/cluster/9bc05b3a-5bfd-11e7-b415-00a098b3eb4f/capacity-and-efficiency/capacity/node?snos=952019000082"
+      },
+      "idShort": "CapacityEfficiency",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Cluster",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "2144.71",
+                "idShort": "UsedCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "2443.04",
+                "idShort": "TotalUsableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "298.33",
+                "idShort": "AvailableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "3171.44",
+                "idShort": "TotalRawCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          },
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Node_1",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "dewscnas01n9",
+                "idShort": "Hostname",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "100.0",
+                "idShort": "UsedCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "200.0",
+                "idShort": "TotalUsableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "300.0",
+                "idShort": "AvailableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "400.0",
+                "idShort": "TotalRawCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          },
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Node_2",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "dewscnas01n10",
+                "idShort": "Hostname",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "994.85",
+                "idShort": "UsedCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "1091.32",
+                "idShort": "TotalUsableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "96.47",
+                "idShort": "AvailableCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              },
+              {
+                "value": "1477.27",
+                "idShort": "TotalRawCapacity",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://aiq.netapp.com/custom-dashboard/serial_numbers/212028000092/system_id/0538129918/clusterview/cluster/summary?snos=952019000082"
+      },
+      "idShort": "Shelves",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Shelf1",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "DS212-12",
+                "idShort": "ShelfType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "SHJHU2114000157",
+                "idShort": "ShelfSerial",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "Jul 31, 2035",
+                "idShort": "ShelfContractEndDate",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "FSAS",
+                "idShort": "DiskType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "8000.0",
+                "idShort": "DiskSize",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          },
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Shelf2",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "DS212-12",
+                "idShort": "ShelfType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "SHJHU2114000155",
+                "idShort": "ShelfSerial",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "Jul 31, 2035",
+                "idShort": "ShelfContractEndDate",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "FSAS",
+                "idShort": "DiskType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "8000.0",
+                "idShort": "DiskSize",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          },
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Shelf3",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "DS212-12",
+                "idShort": "ShelfType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "SHJHU2114000148",
+                "idShort": "ShelfSerial",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "Jul 31, 2035",
+                "idShort": "ShelfContractEndDate",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "FSAS",
+                "idShort": "DiskType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "8000.0",
+                "idShort": "DiskSize",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          },
+          {
+            "ordered": false,
+            "allowDuplicates": false,
+            "idShort": "Shelf4",
+            "category": "",
+            "modelType": {
+              "name": "SubmodelElementCollection"
+            },
+            "value": [
+              {
+                "value": "DS212-12",
+                "idShort": "ShelfType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "SHJHU2114000158",
+                "idShort": "ShelfSerial",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "Jul 31, 2035",
+                "idShort": "ShelfContractEndDate",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "FSAS",
+                "idShort": "DiskType",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "langString",
+                "kind": "Instance"
+              },
+              {
+                "value": "8000.0",
+                "idShort": "DiskSize",
+                "modelType": {
+                  "name": "Property"
+                },
+                "valueType": "float",
+                "kind": "Instance"
+              }
+            ],
+            "kind": "Instance"
+          }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "identification": {
+        "idType": "IRI",
+        "id": "https://aiq.netapp.com/custom-dashboard/serial_numbers/952019000082/system_id/0538151109/clusterview/cluster/summary"
+      },
+      "idShort": "Configuration",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "idShort": "Overview",
+          "category": "",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "dewscnas01n9",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title",
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "idShort": "Hostname",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "952019000082",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title",
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "idShort": "Serial_Number",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "FAS8700",
+              "constraints": [],
+              "idShort": "Model",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "9.11.1P8",
+              "constraints": [],
+              "idShort": "OS_Version",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "fas8700_rear.png",
+              "constraints": [],
+              "idShort": "FAS8700_rear",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "idShort": "CustomerDetails",
+          "category": "",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "Dr Ing hcF Porsche AG",
+              "constraints": [],
+              "idShort": "CustomerName",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "Dr Ing hcF Porsche AG - Weissach",
+              "constraints": [],
+              "idShort": "SiteName",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "IT Support Storage (004969130141376)",
+              "constraints": [],
+              "idShort": "ContactDetails",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "constraints": [],
+          "idShort": "InventoryDetails",
+          "category": "",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "May 31, 2099",
+              "constraints": [],
+              "idShort": "EndOfPlatformSupport",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "AIQADVISOR",
+              "constraints": [],
+              "idShort": "SupportOffering",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "Jul 31, 2025",
+              "constraints": [],
+              "idShort": "HWContractEndDate",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "Jul 31, 2025",
+              "constraints": [],
+              "idShort": "SSPContractEndDate",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            },
+            {
+              "value": "Jul 31, 2025",
+              "constraints": [],
+              "idShort": "NRDContractEndDate",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": "langString",
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://aiq.netapp.com/custom-dashboard/serial_numbers/212028000092/system_id/0538129918/dashboard"
+      },
+      "idShort": "Wellness",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "2",
+          "constraints": [],
+          "idShort": "SecurityVulnerabilities",
+          "category": "VARIABLE",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": "integer",
+          "kind": "Instance"
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title"
+      },
+      "idShort": "Title",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Title"
+              },
+              {
+                "language": "DE",
+                "text": "Titel"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Title"
+              },
+              {
+                "language": "DE",
+                "text": "Titel"
+              }
+            ],
+            "unit": "",
+            "sourceOfDefinition": "",
+            "dataType": "STRING_TRANSLATABLE",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Sprachabhängiger Titel des Dokuments."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile"
+      },
+      "idShort": "DigitalFile",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Digital File"
+              },
+              {
+                "language": "DE",
+                "text": "Digitale Datei"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "DigitalFile"
+              },
+              {
+                "language": "DE",
+                "text": "DigitaleDatei"
+              }
+            ],
+            "unit": "",
+            "sourceOfDefinition": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Eine Datei, die die DocumentVersion repräsentiert. Neben der obligatorischen PDF/A Datei können weitere Dateien angegeben werden."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-BAA120#008"
+      },
+      "administration": {
+        "version": "",
+        "revision": "2"
+      },
+      "idShort": "MaxRotationSpeed",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "max. Drehzahl"
+              },
+              {
+                "language": "en",
+                "text": "Max. rotation speed"
+              }
+            ],
+            "shortName": [],
+            "unit": "1/min",
+            "unitId": {
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "local": false,
+                  "value": "0173-1#05-AAA650#002",
+                  "idType": "IRDI"
+                }
+              ]
+            },
+            "sourceOfDefinition": "",
+            "dataType": "REAL_MEASURE",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf"
+              },
+              {
+                "language": "en",
+                "text": "Greatest permissible rotation speed with which the motor or feeding unit may be operated"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": []
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "http://customer.com/cd/1/1/18EBD56F6B43D895"
+      },
+      "idShort": "RotationSpeed",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Aktuelle Drehzahl"
+              },
+              {
+                "language": "EN",
+                "text": "Actual rotation speed"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "DE",
+                "text": "AktuelleDrehzahl"
+              },
+              {
+                "language": "EN",
+                "text": "ActualRotationSpeed"
+              }
+            ],
+            "unit": "1/min",
+            "unitId": {
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "local": false,
+                  "value": "0173-1#05-AAA650#002",
+                  "idType": "IRDI"
+                }
+              ]
+            },
+            "sourceOfDefinition": "",
+            "dataType": "REAL_MEASURE",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Aktuelle Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben wird"
+              },
+              {
+                "language": "EN",
+                "text": "Actual rotation speed with which the motor or feeding unit is operated"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document"
+      },
+      "idShort": "Document",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Document"
+              },
+              {
+                "language": "DE",
+                "text": "Dokument"
+              }
+            ],
+            "unit": "",
+            "sourceOfDefinition": "[ISO 15519-1:2010]",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Feste und geordnete Menge von für die Verwendung durch Personen bestimmte Informationen, die verwaltet und als Einheit zwischen Benutzern und System ausgetauscht werden kann."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [],
+      "descriptions": []
+    }
+  ]
+}
