@@ -10,9 +10,9 @@ services:
         - basyxcontext_contextport=4000
         - basyxcontext_accesscontrolalloworigin=*
 
-  aas:
+  aas-ha-952019000082-212028000092:
     image: eclipsebasyx/aas-server:1.5.0
-    container_name: simple-deployment-aas
+    container_name: ha-952019000082-212028000092
     ports:
         - 4001:4001
     volumes:
@@ -23,11 +23,43 @@ services:
         - basyxaas_aas_backend=InMemory
         - basyxcontext_contextpath=/aasServer
         - basyxcontext_contextport=4001
-        #- basyxaas_aas_source=aasx/01_Festo.aasx
-        - basyxaas_aas_source=["/aasx/xyz.json", "/aasx/952019000082-212028000092.json", "/aasx/mcc_ip.json"]
-        #- basyxaas_aas_source=["/aasx/mcc_ip.json"]
         - waiting_for=[{"host":"registry","port":"4000"}]
         - basyxcontext_accesscontrolalloworigin=*
+        - basyxaas_aas_source=["/aasx/952019000082-212028000092.json"]
+
+  aas-mccip:
+    image: eclipsebasyx/aas-server:1.5.0
+    container_name: aas-mccip
+    ports:
+        - 4002:4002
+    volumes:
+        - ./aasx:/aasx
+        - ./assets:/tmp/basyx-temp
+    environment:
+        - basyxaas_registry_path=http://registry:4000/registry/
+        - basyxaas_aas_backend=InMemory
+        - basyxcontext_contextpath=/aasServer
+        - basyxcontext_contextport=4002
+        - waiting_for=[{"host":"registry","port":"4000"}]
+        - basyxcontext_accesscontrolalloworigin=*
+        - basyxaas_aas_source=["/aasx/mcc_ip.json"]
+
+  aas-xyz:
+    image: eclipsebasyx/aas-server:1.5.0
+    container_name: aas-xyz
+    ports:
+        - 4003:4003
+    volumes:
+        - ./aasx:/aasx
+        - ./assets:/tmp/basyx-temp
+    environment:
+        - basyxaas_registry_path=http://registry:4000/registry/
+        - basyxaas_aas_backend=InMemory
+        - basyxcontext_contextpath=/aasServer
+        - basyxcontext_contextport=4003
+        - waiting_for=[{"host":"registry","port":"4000"}]
+        - basyxcontext_accesscontrolalloworigin=*
+        - basyxaas_aas_source=["/aasx/xyz.json"]
 
   gui: 
     image: eclipsebasyx/aas-gui:v230703
