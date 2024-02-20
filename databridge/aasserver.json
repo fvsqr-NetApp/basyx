@@ -1,0 +1,7 @@
+[
+	{
+		"uniqueId": "WellnessSubmodel",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Wellness/submodel",
+		"idShortPath": "SecurityVulnerabilities"
+	}
+]

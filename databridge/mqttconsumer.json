@@ -1,0 +1,8 @@
+[
+	{
+		"uniqueId": "SecurityVulnerabilities",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Wellness"
+	}
+]

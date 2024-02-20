@@ -1,0 +1,8 @@
+[
+	{
+		"datasource": "SecurityVulnerabilities",
+		"transformers": ["SecurityVulnerabilitiesTransformer"],
+		"datasinks": ["WellnessSubmodel"],
+		"trigger": "event"
+	}
+]

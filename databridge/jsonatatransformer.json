@@ -1,0 +1,8 @@
+[
+	{
+		"uniqueId": "SecurityVulnerabilitiesTransformer",
+		"queryPath": "SecurityVulnerabilitiesTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	}
+]
