@@ -36,10 +36,3 @@ services:
         - 3000:3000
     environment:
         -  VITE_REGISTRY_PATH="http://localhost:4000/registry"
-
-  static-content:
-    image: microwaves/microhttpd:latest
-    ports:
-        - 3001:80
-    volumes:
-        - ./assets:/www
