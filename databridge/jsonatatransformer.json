@@ -44,6 +44,37 @@
 	},
 
 	{
+		"uniqueId": "Configuration--InventoryDetails--EndOfPlatformSupportTransformer",
+		"queryPath": "Configuration/InventoryDetails/EndOfPlatformSupportTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--SupportOfferingTransformer",
+		"queryPath": "Configuration/InventoryDetails/SupportOfferingTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--HWContractEndDateTransformer",
+		"queryPath": "Configuration/InventoryDetails/HWContractEndDateTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--SSPContractEndDateTransformer",
+		"queryPath": "Configuration/InventoryDetails/SSPContractEndDateTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--NRDContractEndDateTransformer",
+		"queryPath": "Configuration/InventoryDetails/NRDContractEndDateTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+
+	{
 		"uniqueId": "SecurityVulnerabilitiesTransformer",
 		"queryPath": "SecurityVulnerabilitiesTransformer.jsonata",
 		"inputType": "JsonString",

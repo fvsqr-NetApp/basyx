@@ -37,6 +37,32 @@
 	},
 
 	{
+		"uniqueId": "Configuration--InventoryDetails--EndOfPlatformSupport",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "InventoryDetails/EndOfPlatformSupport"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--SupportOffering",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "InventoryDetails/SupportOffering"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--HWContractEndDate",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "InventoryDetails/HWContractEndDate"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--SSPContractEndDate",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "InventoryDetails/SSPContractEndDate"
+	},
+	{
+		"uniqueId": "Configuration--InventoryDetails--NRDContractEndDate",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "InventoryDetails/NRDContractEndDate"
+	},
+
+	{
 		"uniqueId": "WellnessSubmodel",
 		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Wellness/submodel",
 		"idShortPath": "SecurityVulnerabilities"

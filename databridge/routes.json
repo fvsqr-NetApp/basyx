@@ -44,6 +44,37 @@
 		"trigger": "event"
 	},
 
+	{
+		"datasource": "datasource_Configuration--InventoryDetails--EndOfPlatformSupport",
+		"transformers": ["Configuration--InventoryDetails--EndOfPlatformSupportTransformer"],
+		"datasinks": ["Configuration--InventoryDetails--EndOfPlatformSupport"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--InventoryDetails--SupportOffering",
+		"transformers": ["Configuration--InventoryDetails--SupportOfferingTransformer"],
+		"datasinks": ["Configuration--InventoryDetails--SupportOffering"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--InventoryDetails--HWContractEndDate",
+		"transformers": ["Configuration--InventoryDetails--HWContractEndDateTransformer"],
+		"datasinks": ["Configuration--InventoryDetails--HWContractEndDate"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--InventoryDetails--SSPContractEndDate",
+		"transformers": ["Configuration--InventoryDetails--SSPContractEndDateTransformer"],
+		"datasinks": ["Configuration--InventoryDetails--SSPContractEndDate"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--InventoryDetails--NRDContractEndDate",
+		"transformers": ["Configuration--InventoryDetails--NRDContractEndDateTransformer"],
+		"datasinks": ["Configuration--InventoryDetails--NRDContractEndDate"],
+		"trigger": "event"
+	},
+
 
 	{
 		"datasource": "SecurityVulnerabilities",

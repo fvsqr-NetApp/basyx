@@ -43,6 +43,37 @@
 		"topic": "ha/952019000082-212028000092/Configuration/CustomerDetails/ContactDetails"
 	},
 
+	{
+		"uniqueId": "datasource_Configuration--InventoryDetails--EndOfPlatformSupport",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/InventoryDetails/EndOfPlatformSupport"
+	},
+	{
+		"uniqueId": "datasource_Configuration--InventoryDetails--SupportOffering",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/InventoryDetails/SupportOffering"
+	},
+	{
+		"uniqueId": "datasource_Configuration--InventoryDetails--HWContractEndDate",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/InventoryDetails/HWContractEndDate"
+	},
+	{
+		"uniqueId": "datasource_Configuration--InventoryDetails--SSPContractEndDate",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/InventoryDetails/SSPContractEndDate"
+	},
+	{
+		"uniqueId": "datasource_Configuration--InventoryDetails--NRDContractEndDate",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/InventoryDetails/NRDContractEndDate"
+	},
+
 
 	{
 		"uniqueId": "SecurityVulnerabilities",
