@@ -9,6 +9,8 @@ services:
         - basyxcontext_contextpath=/registry
         - basyxcontext_contextport=4000
         - basyxcontext_accesscontrolalloworigin=*
+    networks:
+      - basyx
 
   aas-ha-952019000082-212028000092:
     image: eclipsebasyx/aas-server:1.5.0
@@ -26,6 +28,8 @@ services:
         - waiting_for=[{"host":"registry","port":"4000"}]
         - basyxcontext_accesscontrolalloworigin=*
         - basyxaas_aas_source=["/aasx/952019000082-212028000092.json"]
+    networks:
+      - basyx
 
   aas-mccip:
     image: eclipsebasyx/aas-server:1.5.0
@@ -43,6 +47,8 @@ services:
         - waiting_for=[{"host":"registry","port":"4000"}]
         - basyxcontext_accesscontrolalloworigin=*
         - basyxaas_aas_source=["/aasx/mcc_ip.json"]
+    networks:
+      - basyx
 
   aas-xyz:
     image: eclipsebasyx/aas-server:1.5.0
@@ -60,6 +66,8 @@ services:
         - waiting_for=[{"host":"registry","port":"4000"}]
         - basyxcontext_accesscontrolalloworigin=*
         - basyxaas_aas_source=["/aasx/xyz.json"]
+    networks:
+      - basyx
 
   gui: 
     image: eclipsebasyx/aas-gui:v230703
@@ -68,9 +76,12 @@ services:
         - 3000:3000
     environment:
         -  VITE_REGISTRY_PATH="http://localhost:4000/registry"
+    networks:
+      - basyx
 
   mqtt:
     image: eclipse-mosquitto:2.0.15
+    container_name: basyx-mqtt
     ports:
       - 1883:1883
     volumes:
@@ -80,7 +91,9 @@ services:
       interval: 5s
       retries: 3
       start_period: 1s
-      timeout: 10s   
+      timeout: 10s
+    networks:
+      - basyx
   
   databridge:
     image: eclipsebasyx/databridge:1.0.0-milestone-06
@@ -90,3 +103,10 @@ services:
     depends_on:
       mqtt:
         condition: service_healthy
+    networks:
+      - basyx
+
+
+networks:
+  basyx:
+    name: basyx-net
