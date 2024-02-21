@@ -1,5 +1,16 @@
 [
 	{
+		"uniqueId": "Configuration--Overview--Hostname",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "Overview/Hostname"
+	},
+	{
+		"uniqueId": "Configuration--Overview--Serial_Number",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "Overview/Serial_Number"
+	},
+
+	{
 		"uniqueId": "WellnessSubmodel",
 		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Wellness/submodel",
 		"idShortPath": "SecurityVulnerabilities"

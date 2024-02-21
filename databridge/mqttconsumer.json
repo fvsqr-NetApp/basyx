@@ -1,5 +1,18 @@
 [
 	{
+		"uniqueId": "datasource_Configuration--Overview--Hostname",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/Overview/Hostname"
+	},
+	{
+		"uniqueId": "datasource_Configuration--Overview--Serial_Number",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/Overview/SerialNumber"
+	},
+
+	{
 		"uniqueId": "SecurityVulnerabilities",
 		"serverUrl": "host.docker.internal",
 		"serverPort": 1883,

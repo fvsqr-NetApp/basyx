@@ -1,5 +1,26 @@
 [
 	{
+		"datasource": "datasource_Configuration--Overview--Hostname",
+		"transformers": [
+			"Configuration--Overview--HostnameTransformer"
+		],
+		"datasinks": [
+			"Configuration--Overview--Hostname"
+		],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--Overview--Serial_Number",
+		"transformers": [
+			"Configuration--Overview--Serial_NumberTransformer"
+		],
+		"datasinks": [
+			"Configuration--Overview--Serial_Number"
+		],
+		"trigger": "event"
+	},
+
+	{
 		"datasource": "SecurityVulnerabilities",
 		"transformers": ["SecurityVulnerabilitiesTransformer"],
 		"datasinks": ["WellnessSubmodel"],

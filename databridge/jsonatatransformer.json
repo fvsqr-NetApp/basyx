@@ -1,5 +1,18 @@
 [
 	{
+		"uniqueId": "Configuration--Overview--Serial_NumberTransformer",
+		"queryPath": "Configuration/Overview/Serial_NumberTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--Overview--HostnameTransformer",
+		"queryPath": "Configuration/Overview/HostnameTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+
+	{
 		"uniqueId": "SecurityVulnerabilitiesTransformer",
 		"queryPath": "SecurityVulnerabilitiesTransformer.jsonata",
 		"inputType": "JsonString",
