@@ -11,6 +11,38 @@
 		"serverPort": 1883,
 		"topic": "ha/952019000082-212028000092/Configuration/Overview/SerialNumber"
 	},
+	{
+		"uniqueId": "datasource_Configuration--Overview--Model",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/Overview/Model"
+	},
+	{
+		"uniqueId": "datasource_Configuration--Overview--OS_Version",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/Overview/OSVersion"
+	},
+
+	{
+		"uniqueId": "datasource_Configuration--CustomerDetails--CustomerName",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/CustomerDetails/CustomerName"
+	},
+	{
+		"uniqueId": "datasource_Configuration--CustomerDetails--SiteName",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/CustomerDetails/SiteName"
+	},
+	{
+		"uniqueId": "datasource_Configuration--CustomerDetails--ContactDetails",
+		"serverUrl": "host.docker.internal",
+		"serverPort": 1883,
+		"topic": "ha/952019000082-212028000092/Configuration/CustomerDetails/ContactDetails"
+	},
+
 
 	{
 		"uniqueId": "SecurityVulnerabilities",

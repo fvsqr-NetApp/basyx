@@ -9,6 +9,32 @@
 		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
 		"idShortPath": "Overview/Serial_Number"
 	},
+	{
+		"uniqueId": "Configuration--Overview--Model",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "Overview/Model"
+	},
+	{
+		"uniqueId": "Configuration--Overview--OS_Version",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "Overview/OS_Version"
+	},
+
+	{
+		"uniqueId": "Configuration--CustomerDetails--CustomerName",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "CustomerDetails/CustomerName"
+	},
+	{
+		"uniqueId": "Configuration--CustomerDetails--SiteName",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "CustomerDetails/SiteName"
+	},
+	{
+		"uniqueId": "Configuration--CustomerDetails--ContactDetails",
+		"submodelEndpoint": "http://ha-952019000082-212028000092:4001/aasServer/shells/952019000082-212028000092/aas/submodels/Configuration/submodel",
+		"idShortPath": "CustomerDetails/ContactDetails"
+	},
 
 	{
 		"uniqueId": "WellnessSubmodel",

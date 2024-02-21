@@ -1,24 +1,49 @@
 [
 	{
 		"datasource": "datasource_Configuration--Overview--Hostname",
-		"transformers": [
-			"Configuration--Overview--HostnameTransformer"
-		],
-		"datasinks": [
-			"Configuration--Overview--Hostname"
-		],
+		"transformers": ["Configuration--Overview--HostnameTransformer"],
+		"datasinks": ["Configuration--Overview--Hostname"],
 		"trigger": "event"
 	},
 	{
 		"datasource": "datasource_Configuration--Overview--Serial_Number",
-		"transformers": [
-			"Configuration--Overview--Serial_NumberTransformer"
-		],
-		"datasinks": [
-			"Configuration--Overview--Serial_Number"
-		],
+		"transformers": ["Configuration--Overview--Serial_NumberTransformer"],
+		"datasinks": ["Configuration--Overview--Serial_Number"],
 		"trigger": "event"
 	},
+	{
+		"datasource": "datasource_Configuration--Overview--Model",
+		"transformers": ["Configuration--Overview--ModelTransformer"],
+		"datasinks": ["Configuration--Overview--Model"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--Overview--OS_Version",
+		"transformers": ["Configuration--Overview--OS_VersionTransformer"],
+		"datasinks": ["Configuration--Overview--OS_Version"],
+		"trigger": "event"
+	},
+
+	
+	{
+		"datasource": "datasource_Configuration--CustomerDetails--CustomerName",
+		"transformers": ["Configuration--CustomerDetails--CustomerNameTransformer"],
+		"datasinks": ["Configuration--CustomerDetails--CustomerName"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--CustomerDetails--SiteName",
+		"transformers": ["Configuration--CustomerDetails--SiteNameTransformer"],
+		"datasinks": ["Configuration--CustomerDetails--SiteName"],
+		"trigger": "event"
+	},
+	{
+		"datasource": "datasource_Configuration--CustomerDetails--ContactDetails",
+		"transformers": ["Configuration--CustomerDetails--ContactDetailsTransformer"],
+		"datasinks": ["Configuration--CustomerDetails--ContactDetails"],
+		"trigger": "event"
+	},
+
 
 	{
 		"datasource": "SecurityVulnerabilities",

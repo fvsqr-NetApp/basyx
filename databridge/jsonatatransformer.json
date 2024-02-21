@@ -11,6 +11,37 @@
 		"inputType": "JsonString",
 		"outputType": "JsonString"
 	},
+	{
+		"uniqueId": "Configuration--Overview--ModelTransformer",
+		"queryPath": "Configuration/Overview/ModelTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--Overview--OS_VersionTransformer",
+		"queryPath": "Configuration/Overview/OS_VersionTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+
+	{
+		"uniqueId": "Configuration--CustomerDetails--CustomerNameTransformer",
+		"queryPath": "Configuration/CustomerDetails/CustomerNameTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--CustomerDetails--SiteNameTransformer",
+		"queryPath": "Configuration/CustomerDetails/SiteNameTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
+	{
+		"uniqueId": "Configuration--CustomerDetails--ContactDetailsTransformer",
+		"queryPath": "Configuration/CustomerDetails/ContactDetailsTransformer.jsonata",
+		"inputType": "JsonString",
+		"outputType": "JsonString"
+	},
 
 	{
 		"uniqueId": "SecurityVulnerabilitiesTransformer",
