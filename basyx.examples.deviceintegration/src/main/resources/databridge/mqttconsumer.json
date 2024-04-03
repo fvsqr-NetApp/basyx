@@ -3,6 +3,6 @@
 		"uniqueId": "temperatureSensor",
 		"serverUrl": "host.docker.internal",
 		"serverPort": 1884,
-		"topic": "heater/temperature"
+		"topic": "heater/temperature2"
 	}
 ]

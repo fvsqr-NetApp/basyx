@@ -56,7 +56,7 @@ services:
     image: eclipsebasyx/aas-gui:v230703
     container_name: aasGui-device-integration 
     ports:
-        - 3000:3000
+        - 3003:3000
     environment:
     -  VITE_REGISTRY_PATH="http://localhost:4000/registry"
   

@@ -64,3 +64,6 @@ launchSettings.json
 Properties
 */.classpath
 */.settings
+/basyx.examples.deviceintegration/
+/basyx.nodered/
+basyx.nodered/node-red/flows.json
